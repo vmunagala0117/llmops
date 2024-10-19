@@ -1,0 +1,5 @@
+01-ChatCompletion/.env
+.env
+**/_pycache_
+**/chroma/*
+**/youtube/*

@@ -1,0 +1,21 @@
+autopep8 --in-place --aggressive --aggressive .\01-ChatCompletion\chat.py
+----------------- simple_chat.py ----------------
+pip install openai
+
+#Setup environment variables in Bash
+export AZURE_OPENAI_API_KEY="REPLACE_WITH_YOUR_KEY_VALUE_HERE"
+export AZURE_OPENAI_ENDPOINT="REPLACE_WITH_YOUR_ENDPOINT_HERE"
+
+#Setup environment variables in PS
+[System.Environment]::SetEnvironmentVariable('AZURE_OPENAI_API_KEY', 'REPLACE_WITH_YOUR_KEY_VALUE_HERE', 'User')
+[System.Environment]::SetEnvironmentVariable('AZURE_OPENAI_ENDPOINT', 'REPLACE_WITH_YOUR_ENDPOINT_HERE', 'User')
+
+#Run Python file
+python simple_chat.py
+----------------------------------------
+
+------------------semantic_kernel-----------------------
+Ref: https://github.com/microsoft/semantic-kernel
+
+pip install semantic-kernel
+pip install google-search-results
