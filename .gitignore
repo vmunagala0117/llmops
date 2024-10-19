@@ -3,3 +3,7 @@
 **/_pycache_
 **/chroma/*
 **/youtube/*
+.vs/*
+.vs/slnx.sqlite
+.vs/llmops/v17/.wsuo
+.vs/llmops/FileContentIndex/*
